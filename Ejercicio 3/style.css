@@ -1,0 +1,27 @@
+div{
+    text-align: center;
+    background-position: center;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#ID{
+    text-align: center;
+}
+form{
+    text-align: center;
+    background-position: center;
+}
+button{
+    text-align: center;
+    font-size: 15px;
+}
+.p{
+    text-align: center;
+}
+.red{
+    background-color: red;
+}

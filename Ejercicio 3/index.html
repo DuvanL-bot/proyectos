@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+     <h1>Usuario por ID</h1>
+
+
+   <form id="buscarUsuarios"> 
+      
+    <div id="ID">
+        <label for="id">ID</label>
+        <input type="number" id ="id">
+    </div>
+
+    <br>
+    
+    <button type="submit">buscar</button>
+   </form>
+
+   <div id="result">
+    <p>ID:</p><p id="user_id">Id</p>
+    <p>Nombre</p><p id="user_name">Nombre</p>
+    <p>Salario:</p><p id="user_salary">Salario</p>
+   </div>
+
+   <div id="error">
+   <p>Error:</p><p id="mensajeUsuario"></p>
+   </div>
+
+    <script src="Ejercicio3.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    font-size: 30px;;
+    color: white;
+}
+
+button{
+    font-size: 20px;
+    text-align: end;
+    text-align: center;
+}
+
+p {
+    color: greenyellow;
+    text-align: center;
+}
+
+p2{
+    color: red;
+    text-align: center;
+}
+
+.Formulario{
+    text-align: center;
+    border: solid 1px black;
+    background-position: center;
+
+}
+
+.fondo{
+    width: 1400px; 
+    height: 720px;
+    background-image: url(https://media.licdn.com/dms/image/v2/D4E22AQE-T5nPZ8eIxg/feedshare-shrink_800/B4EZWBFGuXHMAg-/0/1741627354635?e=2147483647&v=beta&t=zSA3g35gvrcgH3PhFHDb2jUNNnbUPt5pSk8nLwFbY9Y) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    text-align: center;
+}
+
+
