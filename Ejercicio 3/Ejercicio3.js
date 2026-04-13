@@ -9,6 +9,7 @@ const usuarios = [
   { id: 1, nombre: "Ana", salario: 1200000 },
   { id: 2, nombre: "Luis", salario: 800000 },
   { id: 3, nombre: "santiago", salario: 10 },
+  { id: 4, nombre: "Duvan", salario: 2000000}
 ];
 
 function searchById(id_usuario) {
