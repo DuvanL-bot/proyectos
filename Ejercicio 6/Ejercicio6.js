@@ -24,13 +24,6 @@ const resultado = async function () {
     document.getElementById("fecha").textContent = valorFinal.dateChecked ? valorFinal.dateChecked : "No hay información";
     document.getElementById("casos").textContent = valorFinal.positive ? valorFinal.positive : "No hay información";
     document.getElementById("muertes").textContent = valorFinal.death ? valorFinal.death : "No hay información";
-//   }else (array == null);{
-
-//     const valorFinal= array.push("No hay registro");
-//     document.getElementById("fecha").textContent = valorFinal.dateChecked;
-//     document.getElementById("casos").textContent = valorFinal.positive;
-//     document.getElementById("muertes").textContent = valorFinal.death;
-
   }
  };
 
