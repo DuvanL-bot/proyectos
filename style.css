@@ -1,42 +1,17 @@
-.ventanaEmergente {
-    border: 4px solid blue;
-    text-align: center;
-    margin-left: 550px;
-    width: 320px;
-    height: 150px;
-    background-color: white;
-    margin-top: 200px;
-
-}
-
-.azul {
-    background-color: blue;
-    font-size: 27px;
+h1{
     font-weight: 900;
     text-align: start;
-    margin-top: -2px;
-    color: white;
 
 }
 
-#error {
-    font-size: 27px;
-    margin-top: -13px;
+.ulimo10dias{
     font-weight: 900;
+    font-size: 20px;
 }
-
-button {
-    margin-top: 11px;
-    font-size: 15px;
-    cursor: pointer;
-}
-
-body {
-    height: 50vh;
-    background-image: url(https://www.softzone.es/app/uploads-softzone.es/2024/10/fotografia-original-fondo-windows-xp.jpg);
-    background-repeat: no-repeat;
+body{
+    height: 100vh;
+    background-image: url(https://conceitoideal.com.br/wp-content/uploads/2020/07/covid-19-transmissao-.jpg);
+    /* background-repeat: no-repeat; */
     background-size: cover;
     background-position: center;
-
-
 }
