@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="formularioDePrestami">
+      <div class="salario">
+        <label for="salario">Salario</label>
+        <input type="number" id="salario" />
+      </div>
+      <div class="monto">
+        <label for="monto">Monto</label>
+        <input type="number" id="monto" />
+      </div>
+      <div class="plazo">
+        <label for="plazo">Plazo</label>
+        <input type="number" id="plazo" />
+      </div>
+      <div>
+        <button type="submit">Solicitar Prestamo</button>
+      </div>
+      <div>
+        <button type="reset">resetear</button>
+      </div>
+    </form>
+
+    <div id="respuesta">
+      <p id="informacionDeEstado" style="color: greenyellow"></p>
+      <p id="invalido" style="color: red"></p>
+    </div>
+
+    <!-- <input type="text" id="filterlist"> -->
+
+    <script src="App.js"></script>
+  </body>
+</html>
