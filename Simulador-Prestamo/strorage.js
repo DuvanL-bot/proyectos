@@ -1,6 +1,7 @@
 //Local Storage de los prestamos acceptados
 
-document.getElementById("formularioDePrestami").addEventListener("submit", function guardar(e) {
+document.getElementById("formularioDePrestam")
+document.addEventListener("submit", function guardar(e) {
     e.preventDefault();
 
     const informacionDeEstado = document.getElementById("informacionDeEstado").textContent;
@@ -25,21 +26,13 @@ document.getElementById("formularioDePrestami").addEventListener("submit", funct
 
         lista.forEach(function(item, index) {
             const div = document.createElement("div");
-            div.style.display = "flex";
-            div.style.alignItems = "center";
-            div.style.gap = "8px";
-            div.style.marginBottom = "4px";
+            div.setAttribute("id","contentarray")
 
             const span = document.createElement("span");
             span.textContent = item;
 
             const boton = document.createElement("button");
-            boton.textContent = "❌";
-            boton.style.cursor = "pointer";
-            boton.style.border = "none";
-            boton.style.background = "transparent";
-            boton.style.color = "red";
-            boton.style.fontSize = "18px";
+            boton.setAttribute("id", "eliminarelemtArray")
 
             boton.addEventListener("click", function() {
                 eliminarPrestamo(index);
